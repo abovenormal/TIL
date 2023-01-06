@@ -4,10 +4,10 @@
 
   - Primitive type.
   - 산술 연산이 가능
-  - null로 초기화가 불가함.(0으로 초기화 가능.)
+  - null로 초기화가 불가함. (0으로 초기화 가능.)
   - cf) Primitive type(기본형) & Reference type(참조형)
     1. 기본형 : boolean, char, byte, short, int ,long float, double
-    2. 참조형 : 배열(array[]), 열거(enum), 클래스(class), 인터페이스(interface)
+    2. 참조형 : 배열(array[]), 열거(enum), 클래스(class), 인터페이스(interface)...
 
 - Integer
 
@@ -16,8 +16,16 @@
     - 기본형 값이 아닌 객체로 저장할 때
     - 객체 간 비교가 필요할 때
   - null값 처리 가능
-  - ex: (primitive) - Wrapper
-    double - double, float - Float, long - Long, int - Integer, short - Short, byte - Byte, char - Character, boolean - Boolean
+  - ex
+    |primitive | - | Wrapper |
+    |double |- |Double|
+    | float| -|Float |
+    |long |- | Long|
+    |int |- |Integer|
+    | short|- | Short|
+    |byte |- |Byte |
+    | char|- | Character|
+    | boolean|- |Boolean |
 
 - int <-> Integer 간의 변환
 
@@ -43,4 +51,4 @@ Integer.parseInt(String) : int 형을 리턴하기 때문에 산술 연산이 �
     Integer integer = i; // int > Integer 로 Auto boxing
     int i2 = integer; // Integer > int 로 Auto unboxing
 
-> > [참고블로그 :int와 Integer는 무엇이 다른가](https://velog.io/@hadoyaji/int%EC%99%80-Integer%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%B4-%EB%8B%A4%EB%A5%B8%EA%B0%80) , [참고블로그 : 9. int 와 Integer 의 차이](https://lhwn.tistory.com/entry/9-int-%EC%99%80-Integer-%EC%9D%98-%EC%B0%A8%EC%9D%B4)
+> > [참고블로그 : int와 Integer는 무엇이 다른가](https://velog.io/@hadoyaji/int%EC%99%80-Integer%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%B4-%EB%8B%A4%EB%A5%B8%EA%B0%80) , [참고블로그 : 9. int 와 Integer 의 차이](https://lhwn.tistory.com/entry/9-int-%EC%99%80-Integer-%EC%9D%98-%EC%B0%A8%EC%9D%B4)
