@@ -1,6 +1,6 @@
 ## int 와 Integer의 차이점
 
-- int
+- ### int
 
   - Primitive type.
   - 산술 연산이 가능
@@ -9,7 +9,7 @@
     1. 기본형 : boolean, char, byte, short, int ,long float, double
     2. 참조형 : 배열(array[]), 열거(enum), 클래스(class), 인터페이스(interface)...
 
-- Integer
+- ### Integer
 
   - Wrapper class; 기본형을 객체로 다루기 위해 사용하는 클래스
     - 매개변수로 객체를 필요로 할 때
@@ -28,7 +28,7 @@
     | char|- | Character|
     | boolean|- |Boolean |
 
-- int <-> Integer 간의 변환
+- ### int <-> Integer 간의 변환
 
   - Boxing : Primitive 자료형 -> Wrapper 클래스
 
@@ -41,12 +41,12 @@
       // int (i) 를 Integer (integer) 로 변환
       Integer integer = new Integer(i);
 
-- valueOf() 와 parseInt() 의 차이
+- ### valueOf() 와 parseInt() 의 차이
 
-Integer.valueOf(String) : Integer 클래스를 리턴하기 때문에 산술 연산이 불가능하다.
-Integer.parseInt(String) : int 형을 리턴하기 때문에 산술 연산이 가능하다.
+  - Integer.valueOf(String) : Integer 클래스를 리턴하기 때문에 산술 연산이 불가능하다.
+  - Integer.parseInt(String) : int 형을 리턴하기 때문에 산술 연산이 가능하다.
 
-- Auto boxing & unboxing
+- ### Auto boxing & unboxing
   - java에선 대부분의 경우 자동으로 boxing과 unboxing을 해준다.
   - ex
     Integer integer = i; // int > Integer 로 Auto boxing
