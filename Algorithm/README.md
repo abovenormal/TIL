@@ -18,4 +18,5 @@
       1. 탐욕적 선택 속성 : 앞의 선택이 이후의 선택에 영향을 주지 않는다.
       2. 최적 부분 구조 : 문제에 대한 최종 해결 방법은 부분 문제에 대한 최적 문제 해결 방법으로 구성된다.
 
-  > > 관련 문제 : [도서관](https://www.acmicpc.net/problem/1461)-[풀이](https://github.com/abovenormal/studyAlgo/blob/main/algo/src/boj/Main_1461.java) >> [참고 블로그 : [알고리즘] 탐욕 알고리즘(Greedy Algorithm)](https://hanamon.kr/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%ED%83%90%EC%9A%95%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-greedy-algorithm/)
+  > > 관련 문제 : [도서관](https://www.acmicpc.net/problem/1461)-[풀이](https://github.com/abovenormal/studyAlgo/blob/main/algo/src/boj/Main_1461.java)
+  > > [참고 블로그 : [알고리즘] 탐욕 알고리즘(Greedy Algorithm)](https://hanamon.kr/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%ED%83%90%EC%9A%95%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-greedy-algorithm/)
