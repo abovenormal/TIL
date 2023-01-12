@@ -2,7 +2,7 @@
 
 ## Algorithm
 
-[Greedy Algorithm](./Algorithm/Greedy%20Algorithm.md)
+> > [Greedy Algorithm](./Algorithm/Greedy%20Algorithm.md)
 
 ## Java
 
