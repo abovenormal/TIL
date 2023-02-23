@@ -16,4 +16,6 @@
 
 ## OS
 
-> [IPC(프로세스 간 통신)](./OS/IPC.md) > [Mutex & Semaphore](./OS/Mutex%20%26%20Semaphore.md)
+> [IPC(프로세스 간 통신)](./OS/IPC.md)
+
+> [Mutex & Semaphore](./OS/Mutex%20%26%20Semaphore.md)
