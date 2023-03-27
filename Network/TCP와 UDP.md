@@ -88,7 +88,8 @@
 ```
 TCP와 UDP가 나오게 된 배경
 
-1. IP의 역할은 Host to Host(장치 to 장치)만을 지원한다. 장치에서 장치로 이동은 IP로 해결되지만, 하나의 장비안에서 수많은 프로그램들이 통신을 할 경우에는 IP만으로 한계가 있다.
+1. IP의 역할은 Host to Host(장치 to 장치)만을 지원한다. 장치에서 장치로 이동은 IP로 해결되지만,
+하나의 장비안에서 수많은 프로그램들이 통신을 할 경우에는 IP만으로 한계가 있다.
 
 2. IP에서 오류가 발생한다면 ICMP에서 알려준다. 하지만 ICMP는 알려주기만 할 뿐 대처를 못하기 때문에 IP보다 위에서 처리를 해줘야한다.
 
@@ -97,6 +98,22 @@ TCP와 UDP가 나오게 된 배경
 *ICMP : 인터넷 제어 메시지 프로토콜로 네트워크 컴퓨터 위에서 돌아가는 운영체제에서 오류메시지를 전송받는데 주로 쓰임.
 
 ```
+
+### UDP 특징
+
+- IP가 제공하는 정도의 수준만을 제공하는 간단한 IP 상위 계층의 프로토콜이다. TCP와는 다르게 에러가 날 수 도 있고, 재전송이나 순서가 바뀔수도 있어서 이 경우, 어플리케이션에서 처리하는 번거로움이 존재함.
+
+- UDP를 사용하는 이유
+
+  - 데이터 처리가 TCP보다 빠르다. 데이터의 신속성
+  - 주로 실시간 방송, 온라인 게엠에서 사용됌.
+
+- DNS(Domain Name Service)에서 UDP를 사용하는 이유
+  - Request의 양이 작음 -> UDP Request에 담길 수 있다.
+  - 3 way handshaking으로 연결을 유지할 필요가 없다. (오버헤드 발생)
+  - Request에 대한 손실은 Application Layer에서 제어가 가능하다.
+  - DNS : port 53번
+  - But, TCP를 사용할 때가 있다! 크기가 512(UDP 제한)이 넘을 때, TCP를 사용해야한다.
 
 [참고사이트 1](https://github.com/gyoogle/tech-interview-for-developer)
 [참고사이트 2](https://github.com/GimunLee/tech-refrigerator)
