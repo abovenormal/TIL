@@ -6,7 +6,7 @@
 
 ## DB
 
-> [트랜잭션과 정규화,비정규화](./DB/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98%EA%B3%BC%20%EC%A0%95%EA%B7%9C%ED%99%94%2C%EB%B9%84%EC%A0%95%EA%B7%9C%ED%95%98.md)
+> [트랜잭션과 정규화,비정규화](./DB/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98%EA%B3%BC%20%EC%A0%95%EA%B7%9C%ED%99%94%2C%EB%B9%84%EC%A0%95%EA%B7%9C%ED%99%94.md)
 
 ## Java
 
